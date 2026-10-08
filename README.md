@@ -1,11 +1,13 @@
-# PocketOption Signal for Windows — releases
+**Русский** | [English](README.en.md)
 
-This repository contains **only release builds** of PocketOption Signal for Windows
-and the auto-update feed. There is no source code here.
+# PocketOption Signal для Windows — релизы
 
-- Download the latest version: [Releases → Latest](https://github.com/pocketoption-signal/windows-releases/releases/latest)
-- Each release contains `PocketOptionSignal-Setup-{version}.exe`, `update.json` and `update.json.sig`.
-- The app checks `releases/latest` automatically and installs updates only if the
-  signature of `update.json` and the SHA-256 of the installer are valid.
+В этом репозитории лежат **только релизные сборки** PocketOption Signal для Windows
+и лента автообновлений. Исходного кода здесь нет.
 
-Releases are published automatically by CI from the private development repository.
+- Скачать последнюю версию: [Releases → Latest](https://github.com/pocketoption-signal/windows-releases/releases/latest)
+- В каждом релизе есть `PocketOptionSignal-Setup-{version}.exe`, `update.json` и `update.json.sig`.
+- Приложение само проверяет `releases/latest` и ставит обновление, только если
+  подпись `update.json` и SHA-256 установщика верны.
+
+Релизы публикует CI автоматически из приватного репозитория разработки.
